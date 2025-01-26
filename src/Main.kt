@@ -1,5 +1,5 @@
 fun main() {
-    val reproductor=ReproductorMidi("pugnodollari.mid")
+    ReproductorMidi("pugnodollari.mid")
     var lista = listOf("Perro", "Gato", "Hamster", "Canario", "Cobaya", "Caballo", "Pez", "conejo")
     var palabra = lista.random().lowercase()
     var adivinar = "*".repeat(palabra.length).toMutableList()
